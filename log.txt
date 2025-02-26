@@ -1,0 +1,24 @@
+2/18/2025
+Start again.
+First, preprocess the off-target data.
+Discard the useless column.
+Added colnames.
+Figure out the ref_genome.
+Original paper was based on GRCh37/hg19.
+Wait for another test.
+After 2 independent test, we can conclue that Original paper was based on GRC37.
+I also generated sgRNA2seq csv.
+2/19/2025
+Let us focus on classification first.
+To focus on classification, we need to obtain records' genome coordinates.
+To obtain the coordinates, we need to write a algorithm to mapping records to genome.
+So, current task is to build this algorithm.
+I created a notebook called genome_mapping.ipynb on colab to do this.
+2/20/2025
+I noticed that toplevel hg19 is too big to process.
+So I used primary level hg19 instead.
+It's only 3GB.
+I uploaded it to google drive.
+I need to finished the mapping script as soon as possible.
+I did it. Or, grok3 did it. No matters, it's a tool.
+Next level: adjust input/output into tables.
